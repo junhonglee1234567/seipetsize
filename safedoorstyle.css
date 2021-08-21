@@ -1,0 +1,600 @@
+@media all and (max-width:767px) {
+	.img {
+		width: 100%;
+		height: 850px;
+	}
+
+	.btn {
+		width: 90%;
+		height: 90%;
+		cursor: pointer;
+		background-color: #7A99AD;
+		color: white;
+		font-size: 140%;
+		border: none;
+		padding: 0% 0%;
+	}
+	
+	.btn:active {
+		background-color: #F6FC7F;
+	}
+
+	.btncal {
+		width: 90%;
+		height: 94%;
+		background-color: #EF8718;
+		cursor: pointer;
+		color: white;
+		font-size: 150%;
+		text-align: bottom;
+		border: none;
+		padding: 0% 0%;
+	}
+
+	.btn0 {
+		width: 95%;
+		height: 90%;
+		cursor: pointer;
+		background-color: #7A99AD;
+		color: white;
+		font-size: 140%;
+		border: none;
+		padding: 0% 0%;
+	}
+	
+	.btn0:active {
+		background-color: #F6FC7F;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	input {
+		text-align: right;
+		position: absolute;
+		top: 331px;
+		left: 20%;
+		background-color: #DDF1F2;
+		font-size: 45px;
+		padding: 0%;
+		border: none;
+		width: 50%;
+		height: 50px;
+		font-family: 'digital-7';
+		src: url('resources/font/digital-7.ttf');
+	}
+
+	.tg {
+		border-collapse: collapse;
+		border-spacing: 0;
+		border: none;
+		width: 63%;
+		height: 180px;
+		position: absolute;
+		left: 18.5%;
+		top: 465px;
+	}
+
+	.tg td {
+		overflow: hidden;
+		word-break: normal;
+		padding: 0%;
+		width: 25%;
+	}
+
+	.tg tr {
+		height: 25%;
+	}
+
+	.tg .tg-0pky {
+		border-color: inherit;
+		text-align: center;
+		padding: 0% 0%;
+		width: 25%;
+	}
+	
+	.select {
+		position: absolute;
+		top: 415px;
+		left: 19%;
+		width: 62%;
+		height: 40px;
+		padding-left: 1%;
+		font-size: 13px;
+		font-weight: bold;
+		border: 1.5px solid black;
+		background: url('arrow-mobile.png') no-repeat 98% 50%;
+		background-color: white;
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+	
+	select::-ms-expand {
+		display: none;
+	}
+}
+	
+@media (min-width: 768px) and (max-width: 1023px) {
+	.img {
+		width: 100%;
+		height: 1900px;
+	}
+
+	.btn {
+		width: 90%;
+		height: 90%;
+		cursor: pointer;
+		background-color: #7A99AD;
+		color: white;
+		font-size: 300%;
+		border: none;
+		padding: 0% 0%;
+	}
+		
+	.btn:active {
+		background-color: #F6FC7F;
+	}
+
+	.btncal {
+		width: 90%;
+		height: 95%;
+		background-color: #EF8718;
+		cursor: pointer;
+		color: white;
+		font-size: 300%;
+		text-align: bottom;
+		border: none;
+		padding: 0% 0%;
+	}
+
+	.btn0 {
+		width: 95%;
+		height: 90%;
+		cursor: pointer;
+		background-color: #7A99AD;
+		color: white;
+		font-size: 300%;
+		border: none;
+		padding: 0% 0%;
+	}
+		
+	.btn0:active {
+		background-color: #F6FC7F;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	input {
+		text-align: right;
+		position: absolute;
+		top: 720px;
+		left: 22%;
+		background-color: #DDF1F2;
+		font-size: 120px;
+		padding: 0%;
+		border: none;
+		width: 48%;
+		height: 115px;
+		font-family: 'digital-7';
+		src: url('resources/font/digital-7.ttf');
+	}
+
+	.tg {
+		border-collapse: collapse;
+		border-spacing: 0;
+		border: none;
+		width: 64%;
+		height: 430px;
+		position: absolute;
+		left: 18%;
+		top: 1013px;
+	}
+
+	.tg td {
+		overflow: hidden;
+		word-break: normal;
+		padding: 0%;
+		width: 25%;
+	}
+
+	.tg tr {
+		height: 25%;
+	}
+
+	.tg .tg-0pky {
+		border-color: inherit;
+		text-align: center;
+		padding: 0% 0%;
+		width: 25%;
+	}
+	
+	.select {
+		position: absolute;
+		top: 915px;
+		left: 18.7%;
+		width: 62.5%;
+		height: 80px;
+		padding-left: 1%;
+		pading-top: 0px;
+		padding-bottom: 0px;
+		font-size: 25px;
+		font-weight: bold;
+		border: 2px solid black;
+		background: url('arrow.png') no-repeat 99% 50%;
+		background-color: white;
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+		
+	select::-ms-expand {
+		display: none;
+	}
+}
+	
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+	.img {
+		width: 75%;
+		height: 2000px;
+	}
+
+	.btn {
+		width: 90%;
+		height: 90%;
+		cursor: pointer;
+		background-color: #7A99AD;
+		color: white;
+		font-size: 300%;
+		border: none;
+		padding: 0% 0%;
+	}
+	
+	.btn:active {
+		background-color: #F6FC7F;
+	}
+
+	.btncal {
+		width: 90%;
+		height: 95%;
+		background-color: #EF8718;
+		cursor: pointer;
+		color: white;
+		font-size: 300%;
+		text-align: bottom;
+		border: none;
+		padding: 0% 0%;
+	}
+
+	.btn0 {
+		width: 95%;
+		height: 90%;
+		cursor: pointer;
+		background-color: #7A99AD;
+		color: white;
+		font-size: 200%;
+		border: none;
+		padding: 0% 0%;
+	}
+		
+	.btn0:active {
+		background-color: #F6FC7F;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	input {
+		text-align: right;
+		position: absolute;
+		top: 765px;
+		left: 30%;
+		background-color: #DDF1F2;
+		font-size: 120px;
+		padding: 0%;
+		border: none;
+		width: 35%;
+		height: 120px;
+		font-family: 'digital-7';
+		src: url('resources/font/digital-7.ttf');
+	}
+
+	.tg {
+		border-collapse: collapse;
+		border-spacing: 0;
+		border: none;
+		width: 48%;
+		height: 430px;
+		position: absolute;
+		left: 26%;
+		top: 1080px;
+	}
+
+	.tg td {
+		overflow: hidden;
+		word-break: normal;
+		padding: 0%;
+		width: 25%;
+	}
+
+	.tg tr {
+		height: 25%;
+	}
+
+	.tg .tg-0pky {
+		border-color: inherit;
+		text-align: center;
+		padding: 0% 0%;
+		width: 25%;
+	}
+	
+	.select {
+		position: absolute;
+		top: 960px;
+		left: 26.6%;
+		width: 46.9%;
+		height: 100px;
+		padding-left: 1%;
+		pading-top: 0px;
+		padding-bottom: 0px;
+		font-size: 30px;
+		font-weight: bold;
+		border: 2.5px solid black;
+		background: url('arrow.png') no-repeat 98.5% 50%;
+		background-color: white;
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+		
+	select::-ms-expand {
+		display: none;
+	}
+}
+
+@media all and (min-width:1200px) and (max-width:1599px) {
+	.img {
+		width: 64%;
+		height: 2060px;
+	}
+	
+	.btn {
+		width: 90%;
+		height: 80%;
+		cursor: pointer;
+		background-color: #7A99AD;
+		color: white;
+		font-size: 300%;
+		border: none;
+		padding: 0% 0%;
+	}
+		
+	.btn:active {
+		background-color: #F6FC7F;
+	}
+	
+	.btncal {
+		width: 90%;
+		height: 92.5%;
+		background-color: #EF8718;
+		cursor: pointer;
+		color: white;
+		font-size: 300%;
+		text-align: bottom;
+		border: none;
+		padding: 0% 0%;
+	}
+	
+	.btn0 {
+		width: 95.5%;
+		height: 80%;
+		cursor: pointer;
+		background-color: #7A99AD;
+		color: white;
+		font-size: 300%;
+		border: none;
+		padding: 0% 0%;
+	}
+		
+	.btn0:active {
+		background-color: #F6FC7F;
+	}
+	
+	input:focus {
+		outline: none;
+	}
+	
+	input {
+		text-align: right;
+		position: absolute;
+		top: 790px;
+		left: 30%;
+		background-color: #DDF1F2;
+		font-size: 120px;
+		padding: 0%;
+		border: none;
+		width: 33%;
+		height: 120px;
+		font-family: 'digital-7';
+		src: url('resources/font/digital-7.ttf');
+	}
+	
+	.tg {
+		border-spacing: 0;
+		border: none;
+		width: 41.3%;
+		height: 475px;
+		position: absolute;
+		left: 29.2%;
+		top: 1090px;
+	}
+	
+	.tg td {
+		overflow: hidden;
+		word-break: normal;
+		padding: 0%;
+		width: 25%;
+	}
+	
+	.tg tr {
+		height: 25%;
+	}
+	
+	.tg .tg-0pky {
+		text-align: center;
+		padding: 0% 0%;
+		width: 25%;
+	}
+	
+	.select {
+		position: absolute;
+		top: 990px;
+		left: 29.7%;
+		width: 40.3%;
+		height: 85px;
+		padding-left: 0.8%;
+		pading-top: 0px;
+		padding-bottom: 0px;
+		font-size: 25px;
+		font-weight: bold;
+		border: 2.5px solid black;
+		background: url('arrow.png') no-repeat 98% 50%;
+		background-color: white;
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+	
+	select::-ms-expand {
+		display: none;
+	}
+}
+	
+@media all and (min-width:1600px) {
+	.img {
+		width: 75%;
+		height: 3200px;
+	}
+
+	.btn {
+		width: 90%;
+		height: 90%;
+		cursor: pointer;
+		background-color: #7A99AD;
+		color: white;
+		font-size: 450%;
+		border: none;
+		padding: 0% 0%;
+	}
+		
+	.btn:active {
+		background-color: #F6FC7F;
+	}
+
+	.btncal {
+		width: 90%;
+		height: 95%;
+		background-color: #EF8718;
+		cursor: pointer;
+		color: white;
+		font-size: 400%;
+		text-align: bottom;
+		border: none;
+		padding: 0% 0%;
+	}
+
+	.btn0 {
+		width: 95%;
+		height: 90%;
+		cursor: pointer;
+		background-color: #7A99AD;
+		color: white;
+		font-size: 450%;
+		border: none;
+		padding: 0% 0%;
+	}
+		
+	.btn0:active {
+		background-color: #F6FC7F;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	input {
+		text-align: right;
+		position: absolute;
+		top: 1250px;
+		left: 30%;
+		background-color: #DDF1F2;
+		font-size: 150px;
+		padding: 0%;
+		border: none;
+		width: 35%;
+		height: 140px;
+		font-family: 'digital-7';
+		src: url('resources/font/digital-7.ttf');
+	}
+
+	.tg {
+		border-collapse: collapse;
+		border-spacing: 0;
+		border: none;
+		width: 48%;
+		height: 700px;
+		position: absolute;
+		left: 26%;
+		top: 1720px;
+	}
+
+	.tg td {
+		overflow: hidden;
+		word-break: normal;
+		padding: 0%;
+		width: 25%;
+	}
+
+	.tg tr {
+		height: 25%;
+	}
+
+	.tg .tg-0pky {
+		border-color: inherit;
+		text-align: center;
+		padding: 0% 0%;
+		width: 25%;
+	}
+	
+	.select {
+		position: absolute;
+		top: 1555px;
+		left: 26.5%;
+		width: 46.8%;
+		height: 110px;
+		padding-left: 0.8%;
+		pading-top: 0px;
+		padding-bottom: 0px;
+		font-size: 40px;
+		font-weight: bold;
+		border: 3px solid black;
+		background: url('arrow.png') no-repeat 98% 50%;
+		background-color: white;
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+	
+	select::-ms-expand {
+		display: none;
+	}
+}

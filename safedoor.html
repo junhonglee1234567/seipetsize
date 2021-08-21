@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>안전문 계산기</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, user-scalable=no,
+  maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="safedoorstyle.css" />
+</head>
+<body>
+	<p style="text-align: center;">
+		<img src="main4.png" class="img" />
+	</p>
+	<form action="javascript:result()" method="post">
+		<table class="tg">
+			<tbody>
+				<tr>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="cal('1')">1</button>
+					</td>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="cal('2')">2</button>
+					</td>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="cal('3')">3</button>
+					</td>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="del()">←</button>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="cal('4')">4</button>
+					</td>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="cal('5')">5</button>
+					</td>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="cal('6')">6</button>
+					</td>
+					<td class="tg-0pky" rowspan="3">
+						<button type="submit" class="btncal" id="btncal"><b>계산<br>하기<b></button>
+					</td>
+				</tr>
+				<tr>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="cal('7')">7</button>
+					</td>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="cal('8')">8</button>
+					</td>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="cal('9')">9</button>
+					</td>
+				</tr>
+				<tr>
+					<td class="tg-0pky" colspan="2">
+						<button type="button" class="btn0" id="btn0" onclick="cal('0')">0</button>
+					</td>
+					<td class="tg-0pky">
+						<button type="button" class="btn" id="btn1" onclick="cal('.')">.</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<input type="text" class="calculator" id="calculator" name="calculator" onkeyup="this.value=this.value.replace(/[^0-9.]/g,'')">
+		<select class="select" id="select" name="select">
+			<option value="0" selected>안전문 종류를 선택하세요.</option>
+			<option value="1">세이펫 안전문</option>
+			<option value="2">차일드스타 안전문</option>
+			<option value="3">프리미엄 안전문</option>
+		</select>
+	</form>
+</body>
+
+<script>
+function cal(char) {
+	var cal = document.getElementById('calculator');
+	cal.value = cal.value + char;
+}
+</script>
+
+<script>
+function del() {
+	var cal = document.getElementById('calculator');
+	cal.value = cal.value.slice(0, -1);
+}
+</script>
+
+<script>
+function result() {
+	var cal = document.getElementById('calculator');
+	var sel = document.getElementById('select');
+	location.href="result.html?"+sel.value+":"+cal.value;
+}
+</script>
+</html>
